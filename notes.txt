@@ -3,3 +3,10 @@ git clone https://github.com/rodrigoBerlochi/practice-1.git
 wip			add .		commit		push
 Working Directory	Index		HEAD		remote
 
+git add .
+git commit -m "..."
+git push
+git push --set-upstream origin featureName
+git log
+
+git checkout -b featureN
