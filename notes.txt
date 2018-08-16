@@ -10,3 +10,8 @@ git push --set-upstream origin featureName
 git log
 
 git checkout -b featureN
+
+git pull
+git merge branchN
+
+git diff sourceB targetB
