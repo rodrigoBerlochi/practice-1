@@ -81,5 +81,24 @@ git push origin :targetTODelete
 # clean remote from stale branches
 git remote prune
 
+# regular work cycle
+git checkout -b B  //create own branch local to work
+
+// work and every now and then, check what's new in remote
+git fetch origin 
+// now we have read the remote changes, but those are not merged
+// visualize new stuff
+gitk origin master
+// you like? now get new code!
+git pull origin master
+// now changes are in our local 
+we can:
+git commit -m "some"
+git push
+
+That help to keep in sync with remote. 
+fast-forwarding merges are automatically. If conflict, is not fast-forwarding
+and should be resolved manually
+
 
 
