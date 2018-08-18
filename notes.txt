@@ -36,3 +36,9 @@ mixing work from different branches:
 1- merge
 2- cherry pick
 
+Tags useful to mark releases
+Points to create future branches and fix bugs
+git tag
+git tag nameN
+git checkout -b branchName tagName -> creates a branch at the point of tagName
+
