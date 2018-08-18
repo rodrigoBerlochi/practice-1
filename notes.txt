@@ -64,5 +64,15 @@ git checkout myLocalB
 # work on it and then
 git merge origin/b 
 
+# explicit pushes:
+git push origin mybranch:remoteBranchTarget 
+# use : to separate from and to names
+
+#push Tags
+git push --tags origin
+#notice tags are not part of a branch, but of the repo!
+#pushing to the repo! but using naming it can hold
+#a reference to a branch: git tag branchN/v2.3
+
 
 
