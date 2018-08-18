@@ -28,3 +28,11 @@ git tag 1.0.0 10firstnumberscommitid
 gitk ---- ui 
 git config color.ui true
 
+delete:
+git checkout master (change first)
+git branch -d secondBranch
+
+mixing work from different branches: 
+1- merge
+2- cherry pick
+
