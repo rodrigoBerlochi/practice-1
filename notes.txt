@@ -74,5 +74,12 @@ git push --tags origin
 #pushing to the repo! but using naming it can hold
 #a reference to a branch: git tag branchN/v2.3
 
+#deleting branches
+empty branch push 
+git push origin :targetTODelete
+
+# clean remote from stale branches
+git remote prune
+
 
 
