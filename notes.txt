@@ -45,8 +45,24 @@ git checkout -b branchName tagName -> creates a branch at the point of tagName
 remote / local
 git branch (local)
 git branch -r (remotes)
-
+# origin/master  origin/branchName
 
 git fetch origin all
 git whatchanged (simil git log?)
+
+# never checkout directly remote branch unless you want troubles
+# git fetch update remote tracking branches, not local working branches
+
+# advice to avoid pull if we are not completely sure
+git pull = git fetch + git merge
+
+# remote branches
+# right process is
+git branch myLocalB origin/b
+git checkout myLocalB
+
+# work on it and then
+git merge origin/b 
+
+
 
