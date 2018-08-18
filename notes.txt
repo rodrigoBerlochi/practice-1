@@ -9,7 +9,10 @@ git push
 git push --set-upstream origin featureName
 git log
 
-git checkout -b featureN
+git checkout -b featureN 
+OR
+git branch second
+git checkout second
 
 git pull
 git merge branchN
