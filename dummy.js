@@ -6,3 +6,4 @@ let name = "Jackie";
 const age = 12;
 
 const color = 'green';
+const colorBg = 'black';
