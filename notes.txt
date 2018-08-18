@@ -42,3 +42,11 @@ git tag
 git tag nameN
 git checkout -b branchName tagName -> creates a branch at the point of tagName
 
+remote / local
+git branch (local)
+git branch -r (remotes)
+
+
+git fetch origin all
+git whatchanged (simil git log?)
+
