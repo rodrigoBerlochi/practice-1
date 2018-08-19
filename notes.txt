@@ -128,6 +128,13 @@ specify a revision:
 git checkout bed45t69
 git diff HEAD~4..HEAD~2
 
+# recall to move back to the target branch first
+git checkout targetBranch
+# look for commit ids
+gitk sourceBranch &
+# and cherry pick them
+git cherry-pick SHA1
+
 
 
 
