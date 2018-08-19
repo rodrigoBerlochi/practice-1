@@ -109,3 +109,6 @@ git flow feature finish name
 git flow feature publish name
 git flow feature pull origin name
 
+git flow release start name
+git flow release publish name
+git flow release finish name (merge to master/develop, delete rel b and tag branch)
