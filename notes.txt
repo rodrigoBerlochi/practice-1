@@ -1,6 +1,6 @@
 git clone https://github.com/rodrigoBerlochi/practice-1.git
 
-wip			add .		commit		push
+wip					add .		commit		push
 Working Directory	Index		HEAD		remote
 
 git add .
@@ -107,7 +107,27 @@ git diff (working vs index)
 git diff branch1 branch2
 
 reset a file:
-git checkout HEAD~7 ffobar.c 
+git checkout HEAD~7 ffobar.c (0 is current latest, 1 the previous state)
+
+blaming:
+git blame file
+git gui blame file
+
+config
+git config --global user.name "Ro"
+git config --global user.email "a@gmail.com"
+git config --global merge.tool namehere
+
+
+specify a revision:
+-branch
+-tag
+-commit id sha1 hash (6-8-10 first digits)
+-HEAD tag ~N 
+
+git checkout bed45t69
+git diff HEAD~4..HEAD~2
+
 
 
 
