@@ -48,7 +48,7 @@ git branch -r (remotes)
 # origin/master  origin/branchName
 
 git fetch origin all
-git whatchanged (simil git log?)
+git whatchanged (simil git log + file names that changed)
 
 # never checkout directly remote branch unless you want troubles
 # git fetch update remote tracking branches, not local working branches
@@ -99,6 +99,19 @@ git push
 That help to keep in sync with remote. 
 fast-forwarding merges are automatically. If conflict, is not fast-forwarding
 and should be resolved manually
+
+Examine
+git log
+git whatchanged
+git diff (working vs index)
+git diff branch1 branch2
+
+reset a file:
+git checkout HEAD~7 ffobar.c 
+
+
+
+
 
 
 
