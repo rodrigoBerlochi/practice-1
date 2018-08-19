@@ -113,4 +113,4 @@ git flow feature pull origin name
 --RELEASES
 git flow release start name
 git flow release publish name
-git flow release finish name (merge to master/develop, delete rel b and tag branch)
+git flow release finish 'r1.0' (merge to master/develop, delete rel b and tag branch)
