@@ -9,6 +9,8 @@ git commit -m "string"
 git push 
 git push --set-upstream origin "name"
 
+explicit:
+git push origin myBranch:remoteBranch
 
 // GETTING NEW STUFF (MERGE)
 git pull
@@ -31,6 +33,8 @@ git checkout "name"
 
 git merge "fromBranch" (to "name")
 
+git branch
+git branch -r
 
 // TAGGING
 git tag
@@ -51,6 +55,8 @@ git log
 git log --pretty=oneline
 git log --author=name
 
+git whatchanged
+
 git diff (wkg to HEAD)
 git diff
 git diff branchA branchB
@@ -59,8 +65,14 @@ git diff HEAD~3..HEAD~1
 
 
 // REVERSING
+
 single file
 git checkout HEAD~4 file.name.ext
 
 
 // CHERRY PICKING
+
+git checkout targetBranch
+gitk sourceBranch (select sha1 ids)
+git cherry-pick sha1-id
+
