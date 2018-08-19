@@ -76,3 +76,10 @@ git checkout targetBranch
 gitk sourceBranch (select sha1 ids)
 git cherry-pick sha1-id
 
+
+// STASHING
+git stash save
+git stash list
+git stash apply
+git stash clear
+git stash branch bname stashid
