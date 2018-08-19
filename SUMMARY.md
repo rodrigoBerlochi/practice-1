@@ -102,3 +102,5 @@ git bisect run ./test.sh
 git bisect reset
 
 // GIT FLOW
+git flow init
+git flow feature start name
