@@ -102,6 +102,7 @@ git bisect run ./test.sh
 git bisect reset
 
 // GIT FLOW
+--FEATURES
 git flow init (next release must be development branch)
 git flow feature start name
 git flow feature finish name
@@ -109,6 +110,7 @@ git flow feature finish name
 git flow feature publish name
 git flow feature pull origin name
 
+--RELEASES
 git flow release start name
 git flow release publish name
 git flow release finish name (merge to master/develop, delete rel b and tag branch)
