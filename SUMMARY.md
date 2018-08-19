@@ -87,3 +87,10 @@ git stash branch bname stashid
 // REPO MAINTENANCE
 git repack
 git prune
+
+// BAD REVISIONS
+git bisect start
+git bisect bad
+git bisect good
+git bisect run ./test.sh
+git bisect reset
