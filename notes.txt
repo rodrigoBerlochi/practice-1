@@ -137,7 +137,7 @@ git cherry-pick SHA1
 
 
 
-
+stash save uncommited changes and go back to latest HEAD
 
 
 
