@@ -83,3 +83,7 @@ git stash list
 git stash apply
 git stash clear
 git stash branch bname stashid
+
+// REPO MAINTENANCE
+git repack
+git prune
