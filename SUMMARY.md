@@ -102,5 +102,10 @@ git bisect run ./test.sh
 git bisect reset
 
 // GIT FLOW
-git flow init
+git flow init (next release must be development branch)
 git flow feature start name
+git flow feature finish name
+
+git flow feature publish name
+git flow feature pull origin name
+
