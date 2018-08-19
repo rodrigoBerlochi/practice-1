@@ -69,6 +69,12 @@ git diff HEAD~3..HEAD~1
 single file
 git checkout HEAD~4 file.name.ext
 
+recommended
+git revert HEAD~2 (better, is reversible)
+git commit --ammend file1 (affect HEAD but not working copy)
+
+git reset --hard HEAD~2 (irreversible, unless you..)
+git reset --hard HEAD@{1}
 
 // CHERRY PICKING
 
@@ -94,3 +100,5 @@ git bisect bad
 git bisect good
 git bisect run ./test.sh
 git bisect reset
+
+// GIT FLOW
