@@ -118,4 +118,4 @@ git flow release finish 'r1.0' (merge to master/develop, delete rel b and tag br
 --HOTFIXES
 git flow hotfix start name
 git flow hotfix finish name (to master and develop)
-git push --set-upstream origin hotfix/defect1234
+git push --set-upstream origin defect1234
